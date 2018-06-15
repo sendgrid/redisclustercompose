@@ -26,3 +26,9 @@ It takes a little while.
 **Using Reddie**
 
 Navigate to `https://localhost` to access Reddie.
+
+
+## Sendgrid specific stuff
+
+Modify the `./build.sh` file to have a new version
+Run `./build.sh` to build the images required in the compose and push them to the docker repository at `docker.sendgrid.net/sendgrid/mcauto-test-cluster-redis:${VERSION}`
